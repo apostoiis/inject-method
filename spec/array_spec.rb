@@ -24,9 +24,5 @@ describe Array do
     it 'division, should return 0' do
       expect(array.my_inject &div).to eq 0
     end
-
-    xit 'should work passing an argument' do
-      expect(array.my_inject(:+)).to eq 10
-    end
   end
 end
